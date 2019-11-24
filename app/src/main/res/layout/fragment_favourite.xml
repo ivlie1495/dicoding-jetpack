@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.submissionjetpack.fragment.FavouriteFragment">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPageFavourite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayoutFavourite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabGravity="fill"
+            app:tabMode="fixed"
+            app:tabMaxWidth="0dp">
+
+        </com.google.android.material.tabs.TabLayout>
+
+    </androidx.viewpager.widget.ViewPager>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SubmissionJetpack</string>
+    <string name="poster">Poster</string>
+    <string name="title">Title</string>
+    <string name="release">Release</string>
+    <string name="score">Score</string>
+    <string name="overview">Overview</string>
+    <string name="movie">Movie</string>
+    <string name="tvShow">Tv Show</string>
+    <string name="favourite">Favourite</string>
+    <string name="add_to_favourite">Added to Favourite</string>
+    <string name="remove_from_favourite">Remove from Favourite</string>
+</resources>
